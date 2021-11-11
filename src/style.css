@@ -52,6 +52,10 @@ p {
   color: white;
 }
 
+.primary-link:hover {
+  color: #fff;
+}
+
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -59,6 +63,10 @@ p {
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.secondary-link:hover {
+  color: var(--primary-color);
 }
 
 .homepage-link {
@@ -85,4 +93,5 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+  color: var(--primary-color);
 }
